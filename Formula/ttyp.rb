@@ -1,8 +1,8 @@
 class Ttyp < Formula
   desc "Monkeytype-style TUI typing test"
   homepage "https://github.com/andples/tui-type"
-  url "https://github.com/andples/tui-type/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "ad5dce4fe8e9048ea0a64d7893e10cb7ab20828671079c79cfff2c4beead050c"
+  url "https://github.com/andples/tui-type/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "219787087382ed986f6037b91e441b8b3bb196538b8afda5e9394a97b56cdaa3"
   license "MIT"
   head "https://github.com/andples/tui-type.git", branch: "main"
 
