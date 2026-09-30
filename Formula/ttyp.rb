@@ -1,30 +1,30 @@
 class Ttyp < Formula
   desc "Monkeytype-style TUI typing test"
   homepage "https://github.com/andples/tui-type"
-  version "1.3.1"
+  version "1.4.0"
   license "MIT"
 
   # Prebuilt by .github/workflows/release.yml in andples/tui-type; written by
   # scripts/release.sh, don't edit by hand.
   on_macos do
     on_arm do
-      url "https://github.com/andples/tui-type/releases/download/v1.3.1/ttyp-aarch64-apple-darwin.tar.gz"
-      sha256 "b75fffef68b0d9c228f56b13944701e237ea72736f263b6772d60f0ae8c56027"
+      url "https://github.com/andples/tui-type/releases/download/v1.4.0/ttyp-aarch64-apple-darwin.tar.gz"
+      sha256 "296c05d6e40df55f3b3090fd5eb888a6f64a14aa623324abd736425ea279632e"
     end
     on_intel do
-      url "https://github.com/andples/tui-type/releases/download/v1.3.1/ttyp-x86_64-apple-darwin.tar.gz"
-      sha256 "9b8978a1e1ea64bd0dcfe73ddc410749766ffc14beb6742b342c87d3033fd7ee"
+      url "https://github.com/andples/tui-type/releases/download/v1.4.0/ttyp-x86_64-apple-darwin.tar.gz"
+      sha256 "fe236291913977fce037ec4f2cba183a4f4fad03bddd4bf010e5f440d1faf5be"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/andples/tui-type/releases/download/v1.3.1/ttyp-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "d7933ad6d9df68ece03137cd686cbd9385fbef09369aec593868a2d0b6a86aa6"
+      url "https://github.com/andples/tui-type/releases/download/v1.4.0/ttyp-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "3a5be8317f8650bac268c8a1f172aa280143ede04d335a534343d1d35358ee3f"
     end
     on_intel do
-      url "https://github.com/andples/tui-type/releases/download/v1.3.1/ttyp-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d76d6df9de34bfe8fa6bd50c07749b68be484c77be6a4f8072840a7064a4ceec"
+      url "https://github.com/andples/tui-type/releases/download/v1.4.0/ttyp-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c437d67be4a0a9eabf22f6e702306a5a298c9ec98444d590f29d5da84400976f"
     end
   end
 
